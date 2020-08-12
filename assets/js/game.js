@@ -188,7 +188,7 @@ var playerInfo = {
     else {
       window.alert("You don't have enough money!");
     }
-  };
+  },
   upgradeAttack: function() {
     if (this.money >= 7) {
       window.alert("Upgrading player's attack by 6 for 7 dollars.");
